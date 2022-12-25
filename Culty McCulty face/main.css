@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Redacted&display=swap');
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+
+h1 {
+    margin: 2px;
+    font-weight: 300;
+    color:goldenrod;
+    font-size: 3em;
+}
+h2 {
+    margin-bottom: 2px;
+    color:goldenrod
+}
+
+.para1 {
+    color:midnightblue;
+}
+
+.img1 {
+    size:"50%"
+}
+
+.redacted{
+    font-family: "Redacted", sans-serif;
+}
+
+button {
+background-color: #576682;
+border: none;
+color: #f2f2f2;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 16px;
+float: right;
+}
+
+.thebes{
+    padding: 5px
+}
