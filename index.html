@@ -13,10 +13,26 @@
 <body>
 
     <nav id="topnav">
-        <a class="active" href="#index">Introduction</a>
-        <a href="characters.html">Characters</a>
-        <a href="locations.html">Locations</a>
-        <a href="events.html">Events</a>
+        <ul>
+            <li><a class="active" href="#index">Introduction</a></li>
+            <li class="dropdown">
+                <a href="characters.html">Characters</a>
+                <ul class="dropdown-content">
+                    <li><a href="">NPCs</a></li>
+                    <li class="dropdown">
+                        <a href="">Players</a>
+                        <ul class="dropdown-content dropdown-secondary">
+                            <li><a href="">Player 1</a></li>
+                            <li><a href="">Player 2</a></li>
+                            <li><a href="">Player 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Villains</a></li>
+                </ul>
+            </li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="events.html">Events</a></li>
+        </ul>
     </nav>
     <button onclick="DarkMode()">Dark mode</button>
         <h1>Campaign</h1>
